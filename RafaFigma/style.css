@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --vinho:#8E2424;
+    --cinza-Escuro:#667085;
+    --Cinza-Claro: #98A2B3;
+
+}
+
+/*-------------------------------------------------Nav-Nav-Nav---------------------------------------------------------*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin: 2rem ;
+}
+
+a{
+    color: var(--vinho);
+    text-decoration: none;
+    padding: 0 1rem;
+}
+.cadastrar{
+    color: white;
+    background-color:var(--vinho);
+padding: 15px;
+border-radius: 12px;
+margin-right: 2rem;
+}
+.navnav{
+    margin-right: 30rem;
+}
+img{
+    margin-left: 20px;
+}
+
+/*-------------------------------------------------Cabeçalho---------------------------------------------------------*/
+
+.sec1{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 96px 0px;
+gap: 24px;
+}
+.né{
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sim{
+    
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+}
+.aham{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+width: 791px;
+height: 60px;
+text-align: center;
+color: #98A2B3;
+}
+
+/*----------------------------------------------------Métricas------------------------------------------------------------*/
+
+.sec2{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 64px;
+    
+    
+    
+  
+}
+.h22{
+    width: 280px;
+height: 72px;
+
+
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 72px;
+
+
+letter-spacing: -0.02em;
+
+color: #8E2424;
+}
+.h44{
+    width: 280px;
+height: 28px;
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+
+
+color: #101828;
+}
+.ppp{
+    width: 280px;
+height: 48px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+
+
+
+color: #667085;
+}
+
+/*---------------------------------------------------------Vagas---------------------------------------------------------*/
+
+.sec3{
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+padding: 96px 0px;
+gap: 64px;
+
+
+}
+.h555{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+
+width: 125px;
+height: 28px;
+
+background: rgba(142, 36, 36, 0.05);
+border-radius: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    
+    text-align: center;
+    
+    color: #8E2424;
+}
+.h111{
+   font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    
+    
+    color: #101828;
+}
+.pepe{
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+.imgimg{
+    
+width: 1216px;
+height: 400px;
+left: 112px;
+top: 298px;
+}
+
+.divdivdiv{
+    box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+padding: 24px 24px 28px;
+gap: 24px;
+border: 1px solid #EAECF0;
+border-radius: 16px;
+}
+.h1div{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+color: #101828;
+
+}
+
+/*-------------------------------------------------Vagas Part 2---------------------------------------------------------*/
+
+.sec4{
+    padding-left: 450px;
+    padding-right: 450px;
+}
+.h2div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    justify-content: flex-start;
+}
+.pdiv{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #667085;
+}
+
+/*-------------------------------------------------------Depoimentos-------------------------------------------------------*/
+.sec6{
+    width: 180vh;
+    background-color: rgba(195, 25, 25, 0.03);
+    margin-left: 90px;
+    border-radius: 16px;
+}
+.sec6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h2nome{
+    font-size: 16px;
+}
+.pjulia{
+font-size: 14px;
+}
+.h3sec6{
+    font-size: 14px;
+}
+.h1sec6{
+    font-size: 26px;
+}
+
+/*-------------------------------------------------------Formulário-------------------------------------------------------*/
+
+.h1sec7{
+    font-size: 36px;
+    text-align: center;
+}
+.psec7{
+    font-size: 20px;
+}
+.divsec7{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.divsec72{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputsec7{
+    height: 40px;
+    width: 360px;
+}
+.sec7{
+    background-color: #F9FAFB;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.direitos{
+    font-size: 16px;
+}
+#bedois{
+    margin-left: 15px;
+}
